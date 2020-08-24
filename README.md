@@ -1,2 +1,7 @@
 # Dex-Interception
-dont chat me how to use, because im already told here
+Compile
+      $ make
+build
+      $ make install abi={armeabi-v7a, arm64-v8a, x86, x86_64}
+Run with termux 
+      $sudo ./jancok com.xnxx
