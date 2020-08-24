@@ -12,7 +12,7 @@
 
 2. Run target apk then run the tools with termux 
 <pre>
-      $sudo .kisskiss com.xnxx
+      $sudo ./kisskiss com.xnxx
 </pre>
 
 enjoy bitch t.me/memorydebugger
