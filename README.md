@@ -12,7 +12,9 @@
 
 2. Run target apk then run the tools with termux 
 <pre>
-      $sudo ./kisskiss com.xnxx
+      $sudo su ./javaloader com.xnxx
 </pre>
 
-enjoy bitch t.me/memorydebugger
+enjoy bitch https://t.me/memorydebugger
+credit: strazzere, JavaLoader ( Jiagu Fixer )
+
