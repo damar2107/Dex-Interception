@@ -1,36 +1,18 @@
-Kisskiss - Unpacker for various Android packers/protectors
-=============
 
-Basic example of an easy unpacker for Android. Heavily commented so hopefully people can understand the flow and thinking behind the hacks going on.
 
-Currently supports:
- - Bangcle (SecNeo)
- - APKProtect
- - LIAPP (prerelease demo)
- - Qihoo Android Packers
- - Jaigu
-
-This _should_ work on ARM and x86 devices. Please note that ptrace can and often is disabled or messed up on newer SELinux devices. You should either use a device/emulator which does not have SELinux enabled or disable it prior to ruinning this.
-
-**Compiling:**
-
-The only prerequisite for the unpacker to build is to have the Android NDK [installed](https://developer.android.com/ndk/guides/setup.html#install).
-
-**Usage:**
-
-1. Compile: (Assumes the NDK was properly installed and `PATH` variable updated, see link above)
+1. Compile:
 <pre>
       $ make
 </pre>
 
-2. Push to the device
+2. build
 <pre>
       $ make install abi={armeabi-v7a, arm64-v8a, x86, x86_64}
 </pre>
 
-2. Run the APK to unpack and then run the unpacker
+2. Run target apk then run the tools with termux 
 <pre>
-      $adb shell ./data/local/tmp/kisskiss com.package.name.to.unpack
+      $sudo .kisskiss com.xnxx
 </pre>
 
-Follow the outputs instructions and pull the odex, deodex as needed and enjoy reversing!
+enjoy bitch t.me/memorydebugger
